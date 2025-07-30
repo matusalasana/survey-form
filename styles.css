@@ -1,0 +1,81 @@
+body{
+  margin-top:40px;
+  background-image:url(https://static.vecteezy.com/system/resources/previews/020/069/751/non_2x/business-performance-monitoring-concept-businessman-using-smartphone-online-survey-filling-out-digital-form-checklist-blue-background-photo.jpg)
+}
+.container{
+  background-color:rgb(35, 35, 35);
+  width:800px;
+  text-align:center;
+  margin:auto;
+}
+form{
+  padding-top:50px;
+  padding-bottom:50px;
+  display:flex;
+  flex-direction:column;
+}
+h1{
+  font-family:sans-serif;
+  color:white;
+  text-align:center;
+}
+#description{
+  margin-bottom:40px;
+  font-style:italic;
+  color:white;
+  text-align:center;
+}
+#name,#email,#number,#dropdown,#dropdown2{
+  background-color:white;
+  border:none;
+  border-radius:5px;
+  width:700px;
+  height:40px;
+  text-align:center;
+  font-size:20px
+}
+label{
+  color:white;
+  font-size:20px;
+  font-family:sans-serif;
+}
+#name-label,.satisfaction,.checkboxes,#email-label,#number-label,#dropdown-label,#submit,p{
+  text-align:left;
+  color:white;
+  margin-left:50px;
+  font-size:20px;
+  font-family:sans-serif;
+  margin-bottom:15px;
+  border:none;
+}
+.inline{
+  display:flex;
+  flex-direction:row;
+}
+#check-all{
+  margin-top:25px;
+  margin-left:5px;
+  font-size:15px;
+  font-style:italic;
+}
+
+#name,#email,#number,#dropdown,#dropdown2{
+  margin:auto;
+  margin-bottom:40px;
+}
+.comments{
+  width:700px;
+  height:100px;
+  font-size:30px;
+  margin:auto;
+  border-radius: 5px;
+  text-align: center;
+}
+#submit{
+  width:700px;
+  height:40px;
+  background-color:green;
+  margin:auto;
+  margin-top:20px;
+  text-align:center;
+}

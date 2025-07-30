@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>survey-form</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve</p>
+    <div class="container">
+      <form id="survey-form">
+        <label id="name-label">Name</label>
+        <input type="text" id="name" required placeholder="your name">
+        <label id="email-label">Email</label>
+        <input type="email" id="email" required placeholder="your email">
+        <label id="number-label">Age</label>
+        <input type="number" id="number" min="15" max="80" required placeholder="your age">
+        <p id="dropdown-label">Which option best describes your current role?</p>
+          <select id="dropdown">
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Full Time Learner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+          </select>
+          <p>Would you recommend freeCodeCamp to a friend?</p>
+          <div class="satisfaction">
+            <div>
+              <input id="yes" type="radio" name="name" value="rad">
+              <label for="yes">Definitely</label>
+            </div>
+            <div>
+              <input id="maybe" type="radio" name="name" checked value="rad">
+              <label for="maybe">Maybe</label>
+            </div>
+            <div>
+              <input id="no" type="radio" name="name" value="rad">
+              <label for="no">Not sure</label>
+            </div>
+          </div>
+          <p>What is your favorite feature of freeCodeCamp?</p>
+          <select id="dropdown2">
+            <option>Challenges</option>
+            <option>Projects</option>
+            <option>Cummunity</option>
+            <option>Open source</option>
+          </select>
+          <div class="inline">
+            <p>What would you like to see improved?</P><p id="check-all">(Check all that apply)</P>
+          </div>
+          <div class="checkboxes">
+            <div>
+              <input id="one" type="checkbox" value="check" checked>
+              <label for="one">Front-end Projects</label>
+            </div>
+            <div>
+              <input id="two" type="checkbox" value="check">
+              <label for="two">Back-end Projects</label>
+            </div>
+            <div>
+              <input id="three" type="checkbox" value="check">
+              <label for="three">Data Visualization</label>
+            </div>
+            <div>
+              <input id="four" type="checkbox" value="check">
+              <label for="four">Challenges</label>
+            </div>
+            <div>
+              <input id="five" type="checkbox" value="check">
+              <label for="five">Open Source Community</label>
+            </div>
+            <div>
+              <input id="six" type="checkbox" value="check">
+              <label for="six">Gitter help rooms</label>
+            </div>
+            <div>
+              <input id="seven" type="checkbox" value="check">
+              <label for="seven">Videos</label>
+            </div>
+            <div>
+              <input id="eight" type="checkbox" value="check">
+              <label for="eight">City Meetups</label>
+            </div>
+            <div>
+              <input id="nine" type="checkbox" value="check">
+              <label for="nine">Wiki</label>
+            </div>
+            <div>
+              <input id="ten" type="checkbox" value="check">
+              <label for="ten">Forum</label>
+            </div>
+            <div>
+              <input id="eleven" type="checkbox" value="check">
+              <label for="eleven">Additional Courses</label>
+            </div>
+          </div>
+          <p>Any comments or suggestions?</p>
+          <textarea class="comments" placeholder="enter your comment here" id="txt-area" required></textarea>
+          <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
